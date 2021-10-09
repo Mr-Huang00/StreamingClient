@@ -134,6 +134,10 @@
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="lib\AxInterop.UMediaControlLib.dll" />
+    <Content Include="lib\Interop.UMediaControlLib.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>
